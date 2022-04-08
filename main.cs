@@ -22,7 +22,7 @@ extern int snake[400][3];//蛇的所有坐标点以及蛇   身体(snake[i][0]=0
 
 void init(char map[22][52], int snake[400][3]);//游戏开始的时候初始化
 void makeMap(char map[22][52], int snake[400][3], int food[]);//根据move后的蛇和生成的food更改map里面的值---制作地图
-void move(int snake[400][3], int direct);//让蛇的坐标进行移动
+void move(int snake[400][3], int direct);//让蛇的坐标进行移动/*  */
 void makeFood(int food[]);//生成随机数制作一个食物坐标
 void showView(char map[22][52]);  //绘出视图
 int ifEat(int head, int food[2]); //判断食物是否被吃掉
@@ -249,3 +249,7 @@ int main() {
 	getchar();
 	return 0;
 }
+
+
+
+1111111111111111111
